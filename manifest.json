@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.3",
+  "id": "0d1a325a-d104-47dc-8b8f-8813cf82f85e",
+  "packageName": "com.microsoft.teams.workpro",
+  "developer": {
+    "name": "Corteva",
+    "websiteUrl": "https://one.corteva.com/",
+    "privacyUrl": "https://www.corteva.com/privacy.html",
+    "termsOfUseUrl": "https://www.corteva.com/terms-and-conditions.html"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Workforce Productivity"
+  },
+  "description": {
+    "short": "Broadcast messages to multiple teams and people in one go",
+    "full": "Broadcast messages to multiple teams and people in one go"
+  },
+  "accentColor": "#64A2CC",
+  "bots": [
+    {
+      "botId": "0d1a325a-d104-47dc-8b8f-8813cf82f85e",
+      "scopes": [
+        "personal",
+        "team"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": true
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "workpro.azurefd.net",
+    "agcompanydev.onmicrosoft.com",
+    "agcompany.onmicrosoft.com"
+  ]
+}
